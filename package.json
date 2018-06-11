@@ -1,0 +1,21 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "utils.js",
+  "scripts": {
+    "test": "mocha **/__tests__/*.js",
+    "test-watch": "nodemon --exec \"npm test\"",
+    "start": "node utils.js"
+  },
+  "author": "Rahul Gaur",
+  "license": "ISC",
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^5.2.0",
+    "supertest": "^3.1.0"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
